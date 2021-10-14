@@ -7,3 +7,5 @@ def create_app():
     app.register_blueprint(views)
 
     return app
+
+app = create_app()
